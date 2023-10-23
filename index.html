@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/master.css">
+    <!-- for normalize css -->
+    <link rel="stylesheet" href="css/normlize.css">
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--Imports a model-viewer JavaScript code -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <!-- for the icon -->
+    <link rel="icon" type="image/x-icon" href="assets/logo-white.svg">
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <div class="container">
+
+            <nav>
+
+                <div class="logo">
+                    <img src="assets/logo.svg" alt="logo">
+                </div>
+                <!-- <i class="fa-solid fa-x x-icon"></i> -->
+                <ul>
+                    <li><a href="#" class="active">الرئيسية</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="products.html">المنتجات</a></li>
+                    <li><a href="news.html">الاخبار</a></li>
+                    <li><a href="contact.html">التواصل</a></li>
+                </ul>
+                <div class="lang">
+                    <div class="en">EN</div>
+                    <div class="ar active">AR</div>
+                </div>
+
+            </nav>
+            <i class="fa-solid fa-bars menu-icon"></i>
+
+
+        </div>
+
+    </header>
+    <!-- end header -->
+    <!-- start main -->
+    <div class="main">
+        <div class="container">
+            <div class="3d-model">
+                <model-viewer src="assets/interlocks7.glb" alt="Wheel" orbit-sensitivity="0.7" auto-rotate
+                    auto-rotate-delay="3000" camera-orbit="50deg 75deg 105%" disable-pan disable-tap disable-zoom
+                    rotation-per-second="80deg" camera-controls ar ios-src="assets/interlocks7.glb">
+                </model-viewer>
+            </div>
+            <div class="text">
+                <img src="assets/logo.svg" alt="logo">
+                <p>مصنـــع تدوير وتصنيـــع منتجات <span>صديقـــة للبيئة وآمنة للإنسان</span> لاستخدامها في المشاريع
+                    الإنشائية ومنتجات
+                    جديدة صديقة للبيئة يســـتخدمها الإنســـان في حياته اليومية بدلا من المنتجات التقـــــــليدية
+                    القديمة.
+                </p>
+                <div class="buttons">
+                    <input type="button" value="تعرف على منتجاتنا">
+                    <input type="button" value="تعرف اكثر على إرم">
+                </div>
+            </div>
+            <div class="scroll">
+                <div class="body">
+                    <div class="circle"></div>
+                </div>
+                <div class="arrows">
+                    <img src="assets/scroll_arrow.svg" alt="">
+                    <img src="assets/scroll_arrow.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end main -->
+
+    <!-- start statics -->
+    <div class="statics">
+        <div class="box">
+            <h2>1.6 مليار</h2>
+            <p>إطار جديد يتم إنتاجه سنويا</p>
+        </div>
+        <div class="box">
+            <div class="div">
+                <h2>50%</h2>
+                <span>فقط</span>
+            </div>
+            <p>من الإطارات يتم تدويرها سنويا</p>
+        </div>
+        <div class="box">
+            <h2>720 الف</h2>
+            <p>إطار يتم استهلاكه في اليمن سنويا</p>
+        </div>
+        <img src="assets/shapes1.svg" alt="">
+    </div>
+    <!-- end statics -->
+
+    <!-- start about -->
+    <div class="about">
+        <div class="intro-text">
+            <h1 class="special-text">من نحن</h1>
+            <div></div>
+        </div>
+        <div class="container">
+            <img src="assets/recycling.png" alt="">
+            <div class="text">
+                <div>
+                    <img src="assets/comma.png" alt="">
+                    <p>مصنـــــع تـــــدوير وتصنيـــع منتجـــات صـديقـــة للبيئــة وآمــــنة للإنسان لاستخدامها في
+                        المشاريع الإنشائية ومنتجات جـديـدة صـديـقـة للـبـيـئـة يســـتـخدمـها الإنســـان في حيــاتـه
+                        اليــومـــيـة بـــدلا مــن الـمــنــتــجــات الــتقـلـيـديـة الــقـديـمـة.</p>
+                </div>
+                <input type="button" value="تعرف اكثر على إرم +">
+            </div>
+        </div>
+    </div>
+    <!-- end about -->
+
+    <!-- start products -->
+    <div class="products">
+        <div class="intro-text">
+            <h1 class="special-text">منتجاتنا</h1>
+            <div></div>
+        </div>
+        <div class="container">
+            <div class="products-box">
+                <div class="product">
+                    <h2>الحديد</h2>
+                    <div class="image">
+                        <img src="assets/irons.png" alt="iron">
+                    </div>
+                </div>
+                <div class="product">
+                    <h2>بودرة الاطارات</h2>
+                    <div class="image">
+                        <img src="assets/powder.png" alt="powder">
+                    </div>
+                </div>
+                <div class="product">
+                    <h2>انترلوك مطاطي</h2>
+                    <div class="image">
+                        <img src="assets/interlock.png" alt="interlock">
+                    </div>
+                </div>
+            </div>
+            <input type="button" value="تعرف اكثر على منتجاتنا +">
+        </div>
+    </div>
+    <!-- end products -->
+    <!-- start video -->
+    <div class="video">
+        <div class="intro-text">
+            <h1 class="special-text">تعرف على مصنع إرم</h1>
+            <div></div>
+        </div>
+        <div class="container">
+            <div class="cover">
+                <iframe title="video" src="https://www.youtube.com/embed/MBq8ZFEIIaQ"></iframe>
+                <i class="fas fa-play  fa-2x"></i>
+            </div>
+
+        </div>
+    </div>
+    <!-- end video -->
+
+    <!-- start news -->
+    <div class="news">
+        <div class="intro-text">
+            <h1 class="special-text">آخر الأخبار</h1>
+            <div></div>
+        </div>
+        <div class="container">
+            <div class="box">
+                <div class="text">
+                    <h1>تمت معالجة 100 طن من بودرة المطاط</h1>
+                    <p>في عاام 2023 تمت معالجة 100 طن في مصنع إرم للصناعة التدويريةفي عاام 2023 تمت معالجة 100 طن في
+                        مصنع إرم للصناعة التدويريةفي عاام 2023 تمت معالجة 100 طن في مصنع إرم للصناعة التدويرية</p>
+                    <p class="date">
+                        1-مارس-2023
+                    </p>
+                </div>
+                <div class="img-container">
+                    <div class="image-special">
+                        <img src="assets/rubber-crumb.png" alt="">
+                    </div>
+                    <div class="frame"></div>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="text">
+                    <h1>تمت معالجة 100 طن من بودرة المطاط</h1>
+                    <p>في عاام 2023 تمت معالجة 100 طن في مصنع إرم للصناعة التدويريةفي عاام 2023 تمت معالجة 100 طن في
+                        مصنع إرم للصناعة التدويريةفي عاام 2023 تمت معالجة 100 طن في مصنع إرم للصناعة التدويرية</p>
+                    <p class="date">
+                        1-مارس-2023
+                    </p>
+                </div>
+                <div class="img-container">
+                    <div class="image-special">
+                        <img src="assets/rubber-crumb.png" alt="">
+                    </div>
+                    <div class="frame"></div>
+                </div>
+            </div>
+            <input type="button" value="تعرف اكثر على منتجاتنا +">
+        </div>
+    </div>
+    <!-- end news -->
+    <!-- start animation -->
+    <div class="animation" style="height: 200px;"></div>
+    <!-- end animation -->
+    <!-- start fotter -->
+    <footer>
+        <div class="logo-section">
+            <img src="assets/logo-white.svg" alt="logo">
+            <p>مصنـــع تدوير وتصنيـــع منتجات <span>صديقـــة للبيئة وآمنة للإنسان</span> لاستخدامها في المشاريع
+                الإنشائية ومنتجات
+                جديدة صديقة للبيئة يســـتخدمها الإنســـان في حياته اليومية بدلا من المنتجات التقـــــــليدية
+                القديمة.</p>
+        </div>
+        <div class="important-links">
+            <h2>روابط مهمة</h2>
+            <ul>
+                <li><a href="#"> من نحن</a></li>
+                <li><a href="#"> المنتجات</a></li>
+                <li><a href="#"> الاخبار</a></li>
+                <li><a href="#"> من نحن</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h2>تواصل معنا</h2>
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+
+        </div>
+    </footer>
+    <!-- end fotter -->
+
+</body>
+
+</html>
